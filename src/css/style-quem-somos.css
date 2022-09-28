@@ -8,27 +8,36 @@ body{
 .Texto{
     margin: auto;
     background-color: white;
-    padding: 100px;
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.452);
     line-height: 1;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 150px;
     border-radius: 2em;
 }
 
 h1{
+    font-family: sans-serif;
     text-align: center;
     color: white;
     margin-top: 5em;
+}
 
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #053347;
 }
 
 p {
-    text-align: justify;
+    text-align: center;
     color: #053347;
     font-weight: bold;
+    font-size: larger;
 }
 
 @media (max-width:425px) {
