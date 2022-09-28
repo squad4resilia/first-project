@@ -16,7 +16,7 @@ a:hover {
     opacity: 0,10;
 }
 
-ul {
+ul.nav-list{
     padding: 100px !important;
     list-style: none;
     display: flex;
@@ -35,7 +35,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui ;
-    background: rgb(116, 77, 6);
+    background: #053347;
     height: 8vh;       /*caso queira mudar a barra de inicio  */
 }
 
@@ -49,3 +49,7 @@ main {
     letter-spacing: 2px;
     margin-left: 55px;
 }
+
+/* aqui vou mexer na pag de contatos */
+
+

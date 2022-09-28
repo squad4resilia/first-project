@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui ;
+}
+ 
+
+
+.form-container {   /*parte da caixinha */
+    width: 100%;
+    height: 100vh; /* vh significa que ele vai ter uma autura de todo nosso navegador */
+    background-image: url('/img/a-beach-paradise-tucked-between-grassy-hills.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.container {
+    
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%; 
+}
+
+form { /* caixa em geral */
+    background-color: rgb(255, 255, 255);
+    max-width: 500px;
+    height: 450px;
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+
+
+
+form h1{  /* texto da caixa */
+    text-align: center;
+    font-size: 35px;
+    color:  rgb(30, 87, 87);
+}
+
+form p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 25px 0;
+
+}
+
+.input-single {
+    position: relative; /* posição da caixa */
+    margin: 30px 0;
+}
+
+.input-single label{
+
+    color: rgb(103, 128, 128);
+    position: absolute;
+    left: 0;
+    cursor: text;
+    transition: all 0.60s; /*tempo que sobe "nome.." */
+    
+    
+}
+
+.input{
+    width: 100%; /*linha da caixa de enviar */
+    border: 0;
+    border-bottom: 2px solid rgb(182, 182, 182);
+    padding: 5px;
+    font-size: 17px;
+    outline: none;
+}
+
+form .input-single .input:focus ~ label, /* caixa de enviar */
+form .input-single .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: rgb(30, 87, 87);
+}
+
+.btn{    /*caixa de enviar */
+    width: 100%;
+    text-align: center;
+    bottom: 5px;
+}
+
+form input[type=submit]{ /* butom de enviar */
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 0px;
+    background-color: rgb(30, 87, 87);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/*Parte de baixo da imagem */
+
