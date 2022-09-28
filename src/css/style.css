@@ -1,8 +1,8 @@
 body {
-   
+
     margin: 0;
     padding: 0;
-    
+
 }
 
 a {
@@ -12,16 +12,16 @@ a {
 }
 
 a:hover {
-    
-    opacity: 0,10;
+
+    opacity: 0, 10;
 }
 
-ul.nav-list{
+ul.nav-list {
     padding: 100px !important;
     list-style: none;
     display: flex;
-    
-    
+
+
 }
 
 .logo {
@@ -34,15 +34,16 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: system-ui ;
+    font-family: system-ui;
     background: #053347;
-    height: 8vh;       /*caso queira mudar a barra de inicio  */
+    height: 8vh;
+    /*caso queira mudar a barra de inicio  */
 }
 
-main { 
+main {
 
     background-size: cover;
-    height: 92vh; 
+    height: 92vh;
 }
 
 .nav-list li {
@@ -50,6 +51,18 @@ main {
     margin-left: 55px;
 }
 
+
+
 /* aqui vou mexer na pag de contatos */
 
 
+
+@media (max-width: 1030px) {
+    .logo {
+        width: -0px;
+        justify-content: space-between;
+        height: 200px;
+
+
+    }
+}
