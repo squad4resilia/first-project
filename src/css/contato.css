@@ -10,7 +10,7 @@
 .form-container {   /*parte da caixinha */
     width: 100%;
     height: 100vh; /* vh significa que ele vai ter uma autura de todo nosso navegador */
-    background-image: url('../../img/a-beach-paradise-tucked-between-grassy-hills.jpg'); /* toda vez que quiser por imagem no git page e a imagem ficar respomsiva tem que ter esses ../.. */
+    background-image: url('../img/a-beach-paradise-tucked-between-grassy-hills.jpg'); /* toda vez que quiser por imagem no git page e a imagem ficar respomsiva tem que ter esses ../.. */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
