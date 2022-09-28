@@ -1,0 +1,49 @@
+
+body{
+    background-image: url(https://ogimg.infoglobo.com.br/in/21492526-af8-ae1/FT1086A/wing-221526_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Texto{
+    margin: auto;
+    background-color: white;
+    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.452);
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 2em;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 5em;
+
+}
+
+p {
+    text-align: justify;
+    color: #053347;
+    font-weight: bold;
+}
+
+@media (max-width:425px) {
+    .Texto {
+        margin-left: 145px;
+        margin-right: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 100px;
+        width: 200px;
+    }
+    h1 {
+        margin-left: 145px;
+    }
+    
+}
