@@ -1,0 +1,23 @@
+
+body{
+    background-image: url(https://ogimg.infoglobo.com.br/in/21492526-af8-ae1/FT1086A/wing-221526_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Texto{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 10em;
+    background-color: white;
+    padding: 100px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 5em;
+}
+p {
+    text-align: justify;
+}
