@@ -1,29 +1,39 @@
 #cesta {
-    background-color: rgba(82, 80, 80, 0.493);
+    display: flex;
     width: 300px;
     height: 400px;
-    display: flex;
+    margin-left: 1400px;
+    margin-top: 15px;
+    position: absolute;
     flex-direction: column;
     justify-content: space-between;
-
-/* ---------------------- REORGANIZAR AQUI A CESTA ---------------------------- */
+    z-index: 1;
+    border-color: rgba(36, 35, 35, 0.274);
+    border-radius: 5px;
     display: none;
 }
 
 #diaria {
-    background-color: blue;
+    background-color: white;
     width: 300px;
     height: 50px;
 }
+#diaria h1{
+    font-size: large;
+    text-align: center;
+}
 
 #item {
-    background-color: blue;
+    background-color: white;
     width: 300px;
-    height: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #valor {
-    background-color: rgb(198, 248, 204);
+    background-color: white;
     width: 300px;
     height: 120px;
     display: flex;
@@ -31,15 +41,122 @@
     justify-content: space-around;
 }
 
-#valorinicial {
-    font-size: 11px;
-    
-}
 
 #valorfinal {
     font-size: 18px;
+    margin-top: 10px;
+    margin-right: 60px;
 }
 
-#checkboxvalor {
-    
+#destino{
+    margin-top: 10px;
+}
+
+#botao{
+margin-top: 70px;
+margin-left: 200px;
+}
+
+.argentina{
+    margin-top: 23px;
+    background-image: url('../img/150px/buenosaires.png');
+    height: 150px;
+    width: 150px;
+    margin-left: 30px;
+    border-radius: 100px;
+}
+
+.mexico{
+    margin-top: 23px;
+    background-image: url('../img/150px/cancun.png');
+    height: 150px;
+    width: 150px;
+    margin-left: 30px;
+    border-radius: 100px;
+}
+.espanha{
+    margin-top: 23px;
+    background-image: url('../img/150px/madrid.png');
+    height: 150px;
+    width: 150px;
+    margin-left: 30px;
+    border-radius: 100px;
+}
+.franca{
+    margin-top: 23px;
+    background-image: url('../img/150px/paris.png');
+    height: 150px;
+    width: 150px;
+    margin-left: 30px;
+    border-radius: 100px;
+}
+
+
+/* dor e sofrimento */ 
+
+@media (max-width: 1700px){
+    #cesta{
+        margin-top: 20px;
+        margin-left: 1200px;
+    }
+}
+
+@media (max-width: 1500px){
+    #cesta{
+        margin-top: 15px;
+        margin-left:1000px;
+    }
+}
+
+@media (max-width: 1300px){
+    #cesta{
+        margin-top: 15px;
+        margin-left: 850px;
+    }
+}
+
+@media (max-width: 1160px){
+    #cesta{
+        margin-top: 15px;
+        margin-left: 780px;
+    }
+}
+
+@media (max-width: 1080px){
+    #cesta{
+        margin-top: 15px;
+        margin-left: 680px;
+    }
+}
+
+@media (max-width: 1000px){
+    #cesta{
+        margin-top: 15px;
+        margin-left: 500px;
+    }
+}
+@media (max-width: 820px){
+    #cesta{
+        margin-top: 15px;
+        margin-left: 400px;
+    }
+}
+@media (max-width: 740px){
+    #cesta{
+        margin-top: 15px;
+        margin-left: 360px;
+    }
+}
+@media (max-width: 700px){
+    #cesta{
+        margin-top: 15px;
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    #cesta{
+        margin-top: 15px;
+        margin-left: 85px;
+    }
 }
