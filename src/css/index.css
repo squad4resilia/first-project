@@ -1,0 +1,37 @@
+.header{
+  text-align: center;
+  margin-top: 4em;
+  color: azure;
+  font-size: 2.0rem;
+}
+
+.video-index video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 955px;
+  object-fit: cover;
+  
+}
+.conteiner{
+  display: flex;
+  display: none;
+  
+} 
+.anuncio{
+  justify-content: space-between;
+}
+
+@media (max-height: 720px){
+  .video-index video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 710px;
+      object-fit: cover;
+  }
+}
