@@ -29,6 +29,10 @@ justify-content: space-evenly;
     color: white; 
 }
 
+#imagem{
+    height: 23px;
+}
+
 .item{
     margin: 20px;
     color: white;

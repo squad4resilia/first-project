@@ -1,0 +1,45 @@
+#cesta {
+    background-color: rgba(82, 80, 80, 0.493);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+/* ---------------------- REORGANIZAR AQUI A CESTA ---------------------------- */
+    display: none;
+}
+
+#diaria {
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+}
+
+#item {
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+}
+
+#valor {
+    background-color: rgb(198, 248, 204);
+    width: 300px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#valorinicial {
+    font-size: 11px;
+    
+}
+
+#valorfinal {
+    font-size: 18px;
+}
+
+#checkboxvalor {
+    
+}
