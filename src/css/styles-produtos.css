@@ -9,6 +9,8 @@ body{
 
 .principal {
     margin: 2%;
+    display: flex;
+    flex-direction: row;
 }
 
 .card {
@@ -59,4 +61,41 @@ button:hover {
     color: white;
     transition: .5s;
     cursor: pointer;
+}
+
+@media (max-width: 1000px){
+    .principal{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: auto;
+    }
+    .preco{
+        
+    }
+    .espacamento{
+        height: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .principal{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin: auto;
+    }
+    .espacamento{
+        height: 20px;
+    }
 }
