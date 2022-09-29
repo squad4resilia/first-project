@@ -24,17 +24,23 @@
         </div>       
     </nav>
     <section class="form-container">
-        <div class="container">
-            <form action="">
+        <div class="container"> <!--organizar para que tudo fique bem alinhado-->
+            <form action="">  <!--form para criar o nosso formulário-->
+
                 <h1>Entre em contato</h1>
-                <p>Preenche o formulário abaixo e entraremos em contatos com você</p>
-                <div class="input-single">
+                <p>Preenche o formulário abaixo e entraremos em contatos com você.</p>
+
+                <div class="input-single"> <!--div para cada caixinha de texto-->
                     <input type="text" id="nome-box" class="input" autocomplete="off" required> 
-                    <label for="nome-box">Seu Nome Completo</label>
-                    <div class="input-single">
-                        <input type="text" id="email-box" class="input" autocomplete="off" required> 
+                    <label for="nome-box">Seu Nome</label> <!--for para colocar o nome dentro dA CX-->
+
+
+                    <div class="input-single"> <!--parte que faz a interação com o java sc-->
+                        <input type="email" onblur="validarEmail()" onfocus="redefinirMsg()" id="email" class="input" autocomplete="off" required> 
                         <label for="email-box">Seu e-mail</label>
+                        
                     </div>
+
                     <div class="input-single">
                         <input type="text" id="tel-box" class="input" autocomplete="off" required> 
                         <label for="tel-box">Seu telefone</label>
