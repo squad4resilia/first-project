@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/styles-produtos.css">
     <link rel="stylesheet" href="src/css/cart.css">
+    <script src="src/scripts/script.js"></script>
+    <script src="src/scripts/comprar.js"></script>
+    <script src="src/scripts/display.js"></script>
     <title>Document</title>
 
     <head>
@@ -24,76 +27,81 @@
             <div class="item"><a href="quem-somos.html">Quem somos</a></div>
             <div class="item"><a href="contato.html">Contatos</a></div>
             <div class="item">
-                <img id="imagem" src="src/img/iconmonstr-shopping-cart-thin-16.png" alt="cart">
+                <img onclick="display()" id="imagem" src="src/img/iconmonstr-shopping-cart-thin-16.png" alt="cart">
             </div>
         </div>       
     </nav>
+    <div id="cesta">
+        <div id="diaria"><h1>Seu carrinho</h1><h1 id="destino">Destino:</h2></div>
+        <div id="item">
+            <div id="preview">
+            <div id="botao"><input type="checkbox" id="checkboxvalor2" onclick="valor()"></div>
+        </div>
+    </div>
+        <div id="valor">
+            <div id="checkboxvalor">
+            </div>
+            <div id="valor2">
+                <h1 id="valorfinal">Total: R$00,00</h1>
+                <button id="botaofinalizar" onclick="redirect()">Finalizar</button>
+            </div>
+        </div>
+    </div>
     <div class="principal">
         <div class="card">
             <div class="imagem">
                 <img src="src/img/buenosaires.png">
             </div>
             <div class="titulo">
-                <h1>Buenos Aires (Argentina)</h1>
+                <h1>Buenos Aires</h1>
             </div>
             <div class="preco">
-                <p>R$ 2.248</p>
-                <button>Comprar</button>
+                <p>R$ 2.300</p>
+                <button onclick="comprarArgentina()">Comprar</button>
             </div>
         </div>
+<!-- ------------------------------------------------------------------------------------------------------------ -->
         <div class="espacamento"></div>
         <div class="card">
             <div class="imagem">
                 <img src="src/img/cancun.png">
             </div>
             <div class="titulo">
-                <h1>Cancún (México)</h1>
+                <h1>Cancún</h1>
             </div>
             <div class="preco">
-                <p>R$ 3.193</p>
-                <button>Comprar</button>
+                <p>R$ 3.200</p>
+                <button onclick="comprarMexico()">Comprar</button>
             </div>
         </div>
+<!-- ------------------------------------------------------------------------------------------------------------ -->
         <div class="espacamento"></div>
         <div class="card">
             <div class="imagem">
                 <img src="src/img/madrid.png">
             </div>
             <div class="titulo">
-                <h1>Madrid (Espanha)</h1>
+                <h1>Madrid</h1>
             </div>
             <div class="preco">
-                <p>R$ 5.696</p>
-                <button>Comprar</button>
+                <p>R$ 5.700</p>
+                <button onclick="comprarEspanha()">Comprar</button>
             </div>
         </div>
+<!-- ------------------------------------------------------------------------------------------------------------ -->
         <div class="espacamento"></div>
         <div class="card">
             <div class="imagem">
                 <img src="src/img/paris.png">
             </div>
             <div class="titulo">
-                <h1>Paris (França)</h1>
+                <h1>Paris</h1>
             </div>
             <div class="preco">
-                <p>R$ 5.632</p>
-                <button>Comprar</button>
+                <p>R$ 5.700</p>
+                <button onclick="comprarFranca()">Comprar</button>
             </div>
         </div>
     </div>
-
-    <div id="cesta">
-        <div id="diaria">1</div>
-        <div id="item">2</div>
-        <div id="valor">
-            <div id="checkboxvalor">
-                <input type="checkbox" id="checkboxvalor2" onclick="valor()"></div>
-            <div id="valor2">
-                Valor Total: <h3 id="valorinicial">R$00,00</h3>
-                Total: <h1 id="valorfinal">R$00,00</h1>
-            </div>
-        </div>
-    </div>
-
 </body>
 </html>
