@@ -1,8 +1,25 @@
 body {
-    background-image: url('/img/a-beach-paradise-tucked-between-grassy-hills.jpg');
-    background-position: center;
+    background-image: url('../img/china-test.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: #053347;
+    font-size: medium;
 }
 
 #loginbox {
@@ -26,7 +43,10 @@ body {
 
 #form {
     /* caixa em geral */
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.452);
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     max-width: 500px;
     height: 400px;
     border-radius: 20px;
@@ -41,7 +61,7 @@ body {
 }
 
 #form p {
-    color: rgb(0, 0, 0);
+    color: #053347;;
     text-align: center;
     margin: 25px;
 
@@ -60,13 +80,17 @@ body {
     /*tempo que sobe "nome.." */
 }
 
-.input {
-    width: 100%;
-    /*linha da caixa de enviar */
-    border: 0;
+.input{
+    width: 100%; /*linha da caixa de enviar */
+    border-radius: 0.1em;
+    background-color: rgba(255, 255, 255, 0.644);
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     border-bottom: 2px solid rgb(182, 182, 182);
-    padding: 5px;
+    padding: 3px;
     font-size: 17px;
+    margin-top: 20px;
     outline: none;
 }
 
@@ -82,15 +106,15 @@ body {
     /*caixa de enviar */
     width: 100%;
     text-align: center;
-    margin-top: 94px;
+    margin-top: 10px;
     bottom: 5px;
 }
 
-.btn2 {
+.btn1 {
     /*caixa 2 de enviar */
     width: 100%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 #form input[type=submit] {

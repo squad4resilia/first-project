@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(https://ogimg.infoglobo.com.br/in/21492526-af8-ae1/FT1086A/wing-221526_1920.jpg);
+    background-image: url('../img/rj-test.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,15 +22,14 @@ body{
 h1{
     font-family: sans-serif;
     text-align: center;
-    color: white;
+    color: #053347;
     margin-top: 5em;
 }
 
 h2 {
     font-family: sans-serif;
     text-align: center;
-    color: white;
-    background-color: #053347;
+    color: #053347;
 }
 
 p {

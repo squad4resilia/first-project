@@ -5,12 +5,10 @@
     font-family: system-ui ;
 }
  
-
-
 .form-container {   /*parte da caixinha */
     width: 100%;
-    height: 100vh; /* vh significa que ele vai ter uma autura de todo nosso navegador */
-    background-image: url('../img/a-beach-paradise-tucked-between-grassy-hills.jpg'); /* toda vez que quiser por imagem no git page e a imagem ficar respomsiva tem que ter esses ../.. */
+    height: 92vh; /* vh significa que ele vai ter uma autura de todo nosso navegador */
+    background-image: url('../img/italia-test.jpg'); /* toda vez que quiser por imagem no git page e a imagem ficar respomsiva tem que ter esses ../.. */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +27,10 @@
 }
 
 form { /* caixa em geral */
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.452);
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     max-width: 500px;
     height: 450px;
     padding: 40px;
@@ -70,9 +71,13 @@ form p {
 
 .input{
     width: 100%; /*linha da caixa de enviar */
-    border: 0;
+    border-radius: 0.1em;
+    background-color: rgba(255, 255, 255, 0.644);
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     border-bottom: 2px solid rgb(182, 182, 182);
-    padding: 5px;
+    padding: 3px;
     font-size: 17px;
     outline: none;
 }
