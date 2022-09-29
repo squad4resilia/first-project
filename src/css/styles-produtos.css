@@ -73,7 +73,7 @@ button:hover {
     .card{
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 500px;
         margin: auto;
     }
     .preco{
@@ -94,7 +94,7 @@ button:hover {
     .card{
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 400px;
         margin: auto;
     }
     .espacamento{
