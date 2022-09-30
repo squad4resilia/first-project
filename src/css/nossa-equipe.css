@@ -1,0 +1,26 @@
+body{
+ overflow: hidden;
+}
+
+h1, h2, p  {
+  
+ font-family: 'Nunito', sans-serif;;
+ text-align: center;
+ color: azure;
+
+}
+.fundo-equipe {
+    position: absolute;
+    z-index: -1;
+    align-self: auto;
+}
+
+.flex-squad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    height: 800px;
+}
