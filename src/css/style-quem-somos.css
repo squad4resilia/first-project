@@ -2,19 +2,14 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: url('../img/rj-test.jpg');
+    background-image: url('../img/rj-test\ \(1\).jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .Texto{
     margin: auto;
-    background-color: white;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.452);
-    line-height: 1;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 150px;
@@ -24,21 +19,24 @@ body{
 h1{
     font-family: sans-serif;
     text-align: center;
-    color: #053347;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
     margin-top: 5em;
 }
 
 h2 {
     font-family: sans-serif;
     text-align: center;
-    color: #053347;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 p {
     text-align: center;
-    color: #053347;
+    color: white;
     font-weight: bold;
     font-size: larger;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 @media (max-width:425px) {
