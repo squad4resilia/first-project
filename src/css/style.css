@@ -1,8 +1,6 @@
 body {
-   
     margin: 0;
     padding: 0;
-    
 }
 
 a {
@@ -12,79 +10,88 @@ a {
 }
 
 a:hover {
-    
-    opacity: 0,10;
+    opacity: 0, 10;
 }
-#navheader{
+
+#navheader {
     display: flex;
     justify-content: space-around;
 }
-#separador2{
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-}
-#logo{
-    font-size: 30px;
-    color: white; 
+
+#separador2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-#imagem{
+#logo {
+    font-size: 30px;
+    color: white;
+}
+
+#imagem {
     height: 23px;
 }
 
-.item{
+.item {
     margin: 20px;
     color: white;
     letter-spacing: 1px;
-}
-
-@media (max-width: 425px){
-    #logo{
-        font-size: 15px;
-        color: white; 
-    }
-    
-    .item{
-        margin: 10px;
-        color: white;
-    } 
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: system-ui ;
+    font-family: system-ui;
     background: #053347;
-    height: 8vh;       /*caso queira mudar a barra de inicio  */
+    height: 8vh;
+    /*caso queira mudar a barra de inicio  */
 }
 
-main { 
+main {
 
     background-size: cover;
-    height: 92vh; 
+    height: 92vh;
 }
 
 /* aqui vou mexer na pag de contatos */
 
 
+@media (max-width: 425px) {
+    #logo {
+        font-size: 15px;
+        color: white;
+    }
+
+    .item {
+        margin: 10px;
+        color: white;
+    }
+}
+
 
 @media (max-width: 800px) {
-    .nav-list{
-        width: 70% ;
+    .nav-list {
+        width: 70%;
         margin-bottom: 0px;
-
     }
 }
+
 @media (max-width:600px) {
-    .footer-col{
+    .footer-col {
         width: 100%;
-        
-
     }
-    
+
+    .item {
+        margin: 10px;
+        color: white;
+        letter-spacing: 1px;
+        font-size: smaller;
+    }
+
+    #logo {
+        font-size: smaller;
+    }
+
 }
-
-
-
