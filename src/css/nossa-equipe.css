@@ -1,9 +1,8 @@
 body{
- overflow: hidden;
+    overflow: hidden;
 }
 
 h1, h2, p  {
-  
  font-family: 'Nunito', sans-serif;;
  text-align: center;
  color: azure;
@@ -23,4 +22,14 @@ h1, h2, p  {
     justify-content: space-around;
     margin: auto;
     height: 800px;
+}
+
+@media(max-width:850px){
+    #fundo{
+        object-fit: fill;
+        height: 1950px;
+    }
+    body{
+        overflow: scroll;
+    }
 }
